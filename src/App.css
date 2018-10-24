@@ -1,0 +1,67 @@
+h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: -40px;
+}
+
+.tempContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.refresh {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #47682c;
+  border: 0px;
+  color: white;
+  border-radius: 3px;
+}
+
+.btn:hover {
+   background-color: #58793d;
+}
+
+.btn:active {
+   background-color: #36571a;
+}
+
+.loading {
+  height: 30px;
+  margin-top: -25px;
+  margin-bottom: 5px;
+}
